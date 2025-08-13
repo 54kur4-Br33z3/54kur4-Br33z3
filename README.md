@@ -1,7 +1,8 @@
+# 🌸 54kur4-Br33z3
+
 <p align="center">
   <img src="sakura_breeze_banner.svg" alt="54kur4-Br33z3 — Sakura Breeze Banner" />
 </p>
-# 🌸 54kur4-Br33z3
 
 > *"Code flows like petals in the wind… until the merge conflicts arrive."*
 
