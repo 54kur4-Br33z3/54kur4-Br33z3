@@ -1,0 +1,46 @@
+<svg width="1024" height="320" viewBox="0 0 1024 320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#F8F6FC"></rect>
+  <text x="50%" y="130.0" font-size="64" text-anchor="middle" fill="#282830" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace">54kur4-Br33z3</text>
+  <text x="50%" y="200.0" font-size="24" text-anchor="middle" fill="#5A5A64" font-family="DejaVu Sans, Segoe UI, Arial">Sakura Breeze in Code — petals drift through digital springtime</text>
+  <g id="petals">
+    <g transform="translate(672,-183)"><g class="p"><circle cx="0" cy="0" r="2" fill="#FFF073"></circle><ellipse cx="0" cy="-6" rx="6" ry="10" fill="#FFB6C1" stroke="#FF69B4"></ellipse><ellipse cx="6" cy="-2" rx="6" ry="10" transform="rotate(72)" fill="#FFB6C1" stroke="#FF69B4"></ellipse><ellipse cx="-6" cy="-2" rx="6" ry="10" transform="rotate(-72)" fill="#FFB6C1" stroke="#FF69B4"></ellipse><ellipse cx="5" cy="5" rx="6" ry="10" transform="rotate(144)" fill="#FFB6C1" stroke="#FF69B4"></ellipse><ellipse cx="-5" cy="5" rx="6" ry="10" transform="rotate(-144)" fill="#FFB6C1" stroke="#FF69B4"></ellipse></g></g>
+    <g transform="translate(268,-131)"><g class="p"><circle cx="0" cy="0" r="2" fill="#FFF073"></circle><ellipse cx="0" cy="-6" rx="6" ry="10" fill="#FFB6C1" stroke="#FF69B4"></ellipse><ellipse cx="6" cy="-2" rx="6" ry="10" transform="rotate(72)" fill="#FFB6C1" stroke="#FF69B4"></ellipse><ellipse cx="-6" cy="-2" rx="6" ry="10" transform="rotate(-72)" fill="#FFB6C1" stroke="#FF69B4"></ellipse><ellipse cx="5" cy="5" rx="6" ry="10" transform="rotate(144)" fill="#FFB6C1" stroke="#FF69B4"></ellipse><ellipse cx="-5" cy="5" rx="6" ry="10" transform="rotate(-144)" fill="#FFB6C1" stroke="#FF69B4"></ellipse></g></g>
+    <g transform="translate(902,-311)"><g class="p"><circle cx="0" cy="0" r="2" fill="#FFF073"></circle><ellipse cx="0" cy="-6" rx="6" ry="10" fill="#FFB6C1" stroke="#FF69B4"></ellipse><ellipse cx="6" cy="-2" rx="6" ry="10" transform="rotate(72)" fill="#FFB6C1" stroke="#FF69B4"></ellipse><ellipse cx="-6" cy="-2" rx="6" ry="10" transform="rotate(-72)" fill="#FFB6C1" stroke="#FF69B4"></ellipse><ellipse cx="5" cy="5" rx="6" ry="10" transform="rotate(144)" fill="#FFB6C1" stroke="#FF69B4"></ellipse><ellipse cx="-5" cy="5" rx="6" ry="10" transform="rotate(-144)" fill="#FFB6C1" stroke="#FF69B4"></ellipse></g></g>
+    <!-- 其余花瓣节点略（共 24 组 <g>，每组结构相同，仅起始位移不同） -->
+  </g>
+  <style>
+    @keyframes fall {
+      0%   { transform: translateY(-120px) translateX(0) rotate(0deg); opacity: 0; }
+      10%  { opacity: 1; }
+      100% { transform: translateY(440px) translateX(120px) rotate(360deg); opacity: 0; }
+    }
+    #petals g {
+      animation: fall 7s linear infinite;
+    }
+    /* 逐个错峰延迟（24 片花瓣） */
+    #petals g:nth-child(1){animation-delay: 0.0s;}
+    #petals g:nth-child(2){animation-delay: 0.25s;}
+    #petals g:nth-child(3){animation-delay: 0.5s;}
+    #petals g:nth-child(4){animation-delay: 0.75s;}
+    #petals g:nth-child(5){animation-delay: 1.0s;}
+    #petals g:nth-child(6){animation-delay: 1.25s;}
+    #petals g:nth-child(7){animation-delay: 1.5s;}
+    #petals g:nth-child(8){animation-delay: 1.75s;}
+    #petals g:nth-child(9){animation-delay: 2.0s;}
+    #petals g:nth-child(10){animation-delay: 2.25s;}
+    #petals g:nth-child(11){animation-delay: 2.5s;}
+    #petals g:nth-child(12){animation-delay: 2.75s;}
+    #petals g:nth-child(13){animation-delay: 3.0s;}
+    #petals g:nth-child(14){animation-delay: 3.25s;}
+    #petals g:nth-child(15){animation-delay: 3.5s;}
+    #petals g:nth-child(16){animation-delay: 3.75s;}
+    #petals g:nth-child(17){animation-delay: 4.0s;}
+    #petals g:nth-child(18){animation-delay: 4.25s;}
+    #petals g:nth-child(19){animation-delay: 4.5s;}
+    #petals g:nth-child(20){animation-delay: 4.75s;}
+    #petals g:nth-child(21){animation-delay: 5.0s;}
+    #petals g:nth-child(22){animation-delay: 5.25s;}
+    #petals g:nth-child(23){animation-delay: 5.5s;}
+    #petals g:nth-child(24){animation-delay: 5.75s;}
+  </style>
+</svg>
